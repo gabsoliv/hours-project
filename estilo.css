@@ -1,0 +1,68 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bebas+Neue&family=Bitter:wght@100&family=Cormorant+Garamond:wght@300&display=swap');
+
+:root {
+
+    --manhã: #8BB4D9;
+    --tarde: #F2BE5C;
+    --noite: #152840;
+    --madrugada: #202426;
+    
+    --fontecabecalho: 'Bad Script', 'cursive' ;
+    --fontepadrao: 'Helvetica, sans-serif';
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+header h1 {
+    text-align: center;
+    font-family: var(--fontecabecalho);
+    color: white;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    text-align: center;
+
+}
+
+div#msg {
+    padding-bottom: 20px;
+
+}
+
+div#foto {
+    padding-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    color: white; 
+    font-family: var(--fontepadrao);  
+    font-style: italic; 
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    font-weight: bolder ;
+}
